@@ -26,16 +26,16 @@ i {
 }
 
 .header-icons a:hover i {
-  animation: translatey 0.8s infinite alternate;
-  color: #d34040;
+  animation: scaloButton 0.8s alternate infinite;
+  color: lime;
 }
 
-@keyframes translateY {
+@keyframes scaloButton {
   from {
-    transform: translateY(0px) scale(1);
+    transform: scale(1);
   }
   to {
-    transform: translateY(-8px) scale(1.5);
+    transform: scale(2.1);
   }
 }
 .header-button {
@@ -48,16 +48,21 @@ i {
 }
 
 .header-button:hover {
-  border: 1px solid #d34040;
-  background-color: #d34040;
+  border: 1px solid limegreen;
+  background-color: lime;
+  color: black;
 }
 
 .header-logo {
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 14px;
-   border-radius: 50px;
+  margin-top: 35px;
+}
+.header-logo img {
+  width: 200px;
+  border-radius: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -72,8 +77,8 @@ i {
     font-size: 34px;
   }
   .header-logo img {
-    width: 100px;
-    margin-top: 46px; 
+    width: 160px;
+    margin-top: 46px;
   }
   .header-button {
     display: none;
@@ -92,7 +97,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../img/baixologo.png");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.6), #06121e), url("../img/programador.png");
   left: 0;
   top: 0;
   width: 100%;
@@ -114,20 +119,23 @@ i {
   padding: 14px;
 }
 .hero h1 {
+  margin-top: -100px;
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 36px;
+  font-size: 40px;
 }
-.hero p {
+.hero h3 {
+  padding: 15px;
+  font-size: 25px;
   text-align: center;
   margin: 14px 0;
 }
 
 .button-contact {
   padding: 14px 28px;
-  color: white;
-  background-color: #d94140;
+  color: black;
+  background-color: lime;
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -178,19 +186,24 @@ i {
   padding: 34px 14px 64px 14px;
 }
 .about-content img {
-  max-width: 570px;
+  max-width: 970px;
+  height: 250px;
 }
 
 .about-content div {
   flex: 1;
 }
 
+.about-descripiton {
+  padding: 25px;
+}
 .about-descripiton h2 {
-  font-size: 38px;
+  font-size: 45px;
   margin-bottom: 24px;
 }
-.about-descripiton p {
-  margin-bottom: 14px;
+.about-descripiton h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
   line-height: 150%;
 }
 
@@ -207,18 +220,21 @@ i {
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
+  text-align: center;
+  gap: 10px;
 }
 
 .serviços-content h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 38px;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
-.serviços-content p {
+.serviços-content h4 {
+  font-size: 20px;
   line-break: 150%;
-  margin-bottom: 14px;
+  margin-bottom: 30px;
   text-align: center;
   max-width: 780px;
 }
@@ -261,12 +277,12 @@ i {
 }
 
 .haircut-info button {
-  color: white;
-  background-color: #d94140;
+  color: black;
+  background-color: lime;
   padding: 4px 8px;
   border-radius: 4px;
   border: 0;
-  cursor: default;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -282,6 +298,10 @@ i {
   padding: 54px 0;
   gap: 24px;
   color: white;
+}
+.footer img {
+  width: 200px;
+  border-radius: 50px;
 }
 
 .footer-icons {

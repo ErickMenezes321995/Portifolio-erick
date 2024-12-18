@@ -1,0 +1,5 @@
+{
+    "liveSassCompile.settings.watchOnLaunch": false,
+    "liveSassCompile.settings.showAnnouncements": true,
+    "liveSassCompile.settings.rootIsWorkspace": false
+}

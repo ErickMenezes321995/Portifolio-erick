@@ -18,20 +18,21 @@ i{
 
 .header-icons a:hover{
     i{  
-        animation: translatey 0.8s infinite alternate; 
-        color:$red-light;
+        animation: scaloButton 0.8s alternate infinite;
+        color: lime; 
+        
     }
 }
 
-@keyframes translateY {
+@keyframes scaloButton{
     from{
-        transform: translateY(0px) scale(1);
+        transform: scale(1);
     }
-        
     to{
-        transform: translateY(-8px) scale(1.5);    
-      }
+        transform: scale(2.10);
+    }
 }
+
 
 .header-button{
     border: 1px solid $white-normal;
@@ -43,8 +44,9 @@ i{
 }
 
 .header-button:hover{
-    border: 1px solid $red-light;
-    background-color: $red-light;
+    border: 1px solid limegreen;
+    background-color: lime;
+    color: black;
 }
 
 .header-logo {
@@ -52,9 +54,14 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14px;
-    border-bottom: 5px solid black;
+    margin-top: 35px;
+
+    img{
+        width: 200px;
+        border-radius: 50px;
+    }
 }
+
 
 @media screen and (max-width: 768px){
 
