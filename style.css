@@ -163,7 +163,7 @@ i {
     padding: 0 14px;
     width: 100%;
   }
-  .hero p {
+  .hero h3 {
     font-size: 14px;
   }
 }
@@ -211,6 +211,12 @@ i {
   .about-content {
     flex-direction: column;
   }
+  .about-descripiton h2 {
+    font-size: 20px;
+  }
+  .about-descripiton h4 {
+    font-size: 14px;
+  }
 }
 .serviços {
   background-color: white;
@@ -239,6 +245,14 @@ i {
   max-width: 780px;
 }
 
+@media screen and (max-width: 768px) {
+  .serviços-content h2 {
+    font-size: 20px;
+  }
+  .serviços-content h4 {
+    font-size: 14px;
+  }
+}
 .haircuts {
   display: flex;
   justify-content: center;
