@@ -159,12 +159,13 @@ i {
     min-height: 60vh;
   }
   .hero h1 {
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 28px;
     padding: 0 14px;
     width: 100%;
   }
   .hero h3 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -212,10 +213,10 @@ i {
     flex-direction: column;
   }
   .about-descripiton h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
   .about-descripiton h4 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 .serviços {
@@ -247,10 +248,10 @@ i {
 
 @media screen and (max-width: 768px) {
   .serviços-content h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
   .serviços-content h4 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 .haircuts {

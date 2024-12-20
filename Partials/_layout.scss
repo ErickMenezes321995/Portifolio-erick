@@ -82,13 +82,14 @@
         min-height: 60vh;
 
         h1{
-            font-size: 20px;
+            margin-top: 20px;
+            font-size: 28px;
             padding: 0 14px;
             width: 100%;
         }
 
         h3{
-            font-size: 14px;
+            font-size: 18px;
         }
     }
 }
@@ -145,11 +146,11 @@
 
     .about-descripiton{
         h2{
-            font-size: 20px;
+            font-size: 28px;
         }
 
         h4{
-            font-size: 14px;
+            font-size: 18px;
         }
     }
 
@@ -188,11 +189,11 @@
 @media screen and (max-width: 768px){
     .serviços-content{
         h2{
-            font-size: 20px;
+            font-size: 28px;
         }
 
         h4{
-            font-size: 14px;
+            font-size: 18px;
         }
     }
 }
